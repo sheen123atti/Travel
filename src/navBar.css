@@ -1,0 +1,74 @@
+.navBar-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.company-name{
+    font-size: 20px;
+    font-weight: 700;
+    display: inline;
+}
+
+/* .circle1 {
+    width: 5px;
+    height: 5px;
+    border: 3px solid #FEE135;
+    border-radius: 50%;
+}
+
+.innerCircle1{
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+} */
+
+.navBar-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    margin: 15px;
+    font-size: 14px;
+}
+
+.signUp-option{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .navBar-container{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+    }
+    
+    .company-name{
+        font-size: 20px;
+        font-weight: 700;
+        display: inline;
+    }
+    
+    .navBar-options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .options{
+        margin: 15px;
+        font-size: 14px;
+    }
+    
+    .signUp-option{
+        font-size: 14px;
+    }
+}
